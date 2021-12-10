@@ -50,7 +50,9 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	if ( ! is_wp_error( $wp_error ) ) {
 		$wp_error = new WP_Error();
 	}
-
+	// if ( ! is_wp_error( $wp_error ) ) {
+	// 	$wp_error = new WP_Error();
+	// }
 	// Shake it!
 	$shake_error_codes = array( 'empty_password', 'empty_email', 'invalid_email', 'invalidcombo', 'empty_username', 'invalid_username', 'incorrect_password', 'retrieve_password_email_failure' );
 	/**
