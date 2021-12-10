@@ -112,7 +112,8 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	 * @since 3.1.0
 	 */
 	do_action( 'login_enqueue_scripts' );
-
+	// do_action( 'login_enqueue_scripts' );
+	// do_action( 'login_enqueue_scripts' );
 	/**
 	 * Fires in the login page header after scripts are enqueued.
 	 *
