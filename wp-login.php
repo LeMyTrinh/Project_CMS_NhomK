@@ -94,7 +94,7 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 	<?php
 
 	wp_enqueue_style( 'login' );
-
+	// wp_enqueue_style( 'login' );
 	/*
 	 * Remove all stored post data on logging out.
 	 * This could be added by add_action('login_head'...) like wp_shake_js(),
